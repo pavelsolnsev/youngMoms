@@ -1,0 +1,89 @@
+.answers {
+    margin-top: 80px;
+    margin-bottom: 115px;
+
+    background: url(../img/answers/bg.svg) no-repeat;
+    background-position: 90% center;
+    background-size: contain;
+
+    &__inner {
+        padding-right: 30%;
+    }
+
+    &__list {
+        margin-top: 73px;
+    }
+
+    &__item {
+        position: relative;
+        margin-bottom: 28px;
+        padding-left: 140px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            display: block;
+            width: 110px;
+            height: 110px;
+            background: url(../img/answers/pic1.svg) no-repeat;
+            background-position: center top;
+            background-size: contain;
+        }
+
+        &-text {
+            position: relative;
+            padding: 30px;
+            background: #f0f3f5;
+            border-radius: 10px;
+            &:before {
+                content: "";
+                display: block;
+                position: absolute;
+                left: -24px;
+                top: 20px;
+                width: 24px;
+                height: 12px;
+                background: #f0f3f5;
+            }
+        }
+
+        h3 {
+            margin: 0;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 22px;
+        }
+
+        p {
+            margin: 0;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+
+    &__item_right {
+        padding-left: 0;
+        padding-right: 140px;
+
+        &:before {
+            content: "";
+            position: absolute;
+            left: auto;
+            right: 0;
+        }
+
+        .answers__item-text {
+            &:before {
+                left: auto;
+                right: -24px;
+                top: 20px;
+            }
+        }
+    }
+}

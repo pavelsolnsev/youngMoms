@@ -1,0 +1,88 @@
+.specialty {
+    @media (max-width: 1199px) {
+        padding: 66px 0;
+
+        &__title {
+            margin-bottom: 50px;
+        }
+
+        .slick-prev {
+            left: -5%;
+        }
+
+        .slick-next {
+            right: -5%;
+        }
+
+    }
+
+    @media (max-width: 991px) {
+        .slick-prev {
+            left: -25px;
+        }
+
+        .slick-next {
+            right: -25px;
+        }
+    }
+
+    @media (max-width: 767px) {}
+
+    @media (max-width: 575px) {
+        padding: 30px 0 70px;
+
+        &__item {
+            &-picture {
+                text-align: center;
+                margin-bottom: 17px;
+                height: 200px;
+            }
+
+            &-desc {
+                h3 {
+                    font-size: 20px;
+                    line-height: 22px;
+                    margin-bottom: 12px;
+                }
+
+                p {
+                    font-size: 16px;
+                    line-height: 18px;
+                    margin-bottom: 23px;
+                }
+            }
+
+            &-button {
+                font-size: 9.63124px;
+            }
+        }
+
+        &__button {
+            max-width: 300px;
+            height: 60px;
+        }
+
+        .slick-dotted.slick-slider {
+            margin-bottom: 90px;
+        }
+
+        .slick-list {
+            padding-right: 35px;
+        }
+
+        .slick-slide {
+            margin-right: 4px;
+        }
+
+        .slick-dots li {
+            margin: 0 4px;
+            width: 16px;
+            height: 16px;
+        }
+    
+        .slick-dots li button::before {
+            width: 16px;
+            height: 16px;
+        }
+    }
+}

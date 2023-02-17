@@ -1,0 +1,44 @@
+.result {
+    @media (max-width: 1199px) {
+        padding: 100px 0;
+        &__item {
+            img {
+                max-width: 100px;
+            }
+        }
+    }
+
+    @media (max-width: 991px) {
+        padding: 70px 0;
+        &__item {
+            img {
+                margin-bottom: 19px;
+                max-width: 68px;
+            }
+
+            p {
+                font-size: 18px;
+                line-height: 128%;
+                letter-spacing: -0.797575px;
+            }
+        }
+    }
+
+    @media (max-width: 767px) {
+
+    }
+
+    @media (max-width: 575px) {
+        padding: 46px 0;
+        &__item {
+            img {
+                margin-bottom: 19px;
+                max-width: 100%;
+            }
+        }
+
+        .slick-list {
+            padding-right: 35%;
+        }
+    }
+}

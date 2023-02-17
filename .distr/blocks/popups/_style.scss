@@ -1,0 +1,34 @@
+.popup-reg {
+    max-width: 360px;
+    padding: 30px;
+    background: #ff5136;
+
+    .form__title {
+        width: 100%;
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 1.2;
+    }
+
+    .form__item {
+        max-width: none;
+        margin-right: 0;
+        margin-bottom: 10px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .form__input {
+        height: 65px;
+    }
+
+    .form__more {
+        width: 100%;
+    }
+}
+
+.popup-privacypolice {
+    width: 90%;
+}

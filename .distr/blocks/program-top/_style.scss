@@ -1,0 +1,42 @@
+.program-top {
+    padding-top: 80px;
+    &__inner {
+        display: flex;
+    }
+
+    &__text {
+        width: 100%;
+        max-width: 650px;
+        padding-right: 20px;
+        padding-bottom: 120px;
+    }
+
+    &__title {
+        font-weight: bold;
+        font-size: 54px;
+        line-height: 64px;
+        text-transform: uppercase;
+
+        span {
+            color: #008fd1;
+        }
+    }
+
+    &__subtitle {
+        font-weight: 450;
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    &__picture {
+        display: flex;
+        align-items: flex-end;
+    }
+
+
+    &__form {
+        margin-top: -15px;
+        padding: 40px 0;
+        background: #FF5136;
+    }
+}

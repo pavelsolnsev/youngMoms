@@ -1,0 +1,45 @@
+.category {
+    @media (max-width: 1199px) {
+        &__item {
+            img {
+                margin-bottom: 37px;
+                height: 270px;
+            }
+
+            p {
+                font-size: 18px;
+                line-height: 122%;
+                letter-spacing: -0.754401px;
+            }
+        }
+    }
+
+    @media (max-width: 991px) {}
+
+    @media (max-width: 767px) {
+        &__item {
+            img {
+                height: 180px;
+            }
+        }
+    }
+
+    @media (max-width: 575px) {
+        padding: 112px 0 70px;
+
+        &__item {
+            margin-bottom: 44px;
+            img {
+                margin-bottom: 13px;
+                height: auto;
+            }
+
+            p {
+                font-size: 16px;
+                letter-spacing: -0.593128px;
+            }
+        }
+    }
+
+    @media (max-width: 359px) {}
+}

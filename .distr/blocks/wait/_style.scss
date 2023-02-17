@@ -1,0 +1,44 @@
+.wait {
+    padding: 140px 0;
+    &__title {
+        margin-bottom: 44px;
+    }
+    &__inner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    &__content {
+        padding-right: 2%;
+        ul {
+            list-style-type: disc;
+            list-style-position: outside;
+            margin-left: 25px;
+
+            li {
+                font-weight: 450;
+                font-size: 24px;
+                line-height: 36px;
+                margin-bottom: 18px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    &__button {
+        margin-top: 100px;
+        padding: 17px 65px;
+        font-size: 25px;
+        line-height: 45px;
+        border-radius: 4px;
+    }
+
+    &__picture {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+}

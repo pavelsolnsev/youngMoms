@@ -1,0 +1,39 @@
+.organizer {
+    padding-top: 115px;
+    padding-bottom: 70px;
+
+    &__content {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        grid-gap: 50px;
+        padding: 55px 80px;
+        background: #ffffff;
+        box-shadow: 0px 0px 50px rgba(79, 79, 107, 0.3);
+
+        &_left {
+            background: url(../img/organizer/pic.svg) no-repeat;
+            background-position: left bottom;
+            background-size: contain;
+        }
+
+        p {
+            font-weight: normal;
+            font-size: 22px;
+            line-height: 28px;
+        }
+
+        a {
+            font-size: 22px;
+            line-height: 28px;
+            color: #FF5136;
+            display: block;
+        }
+        img {
+            display: none;
+        }
+    }
+
+    &__title {
+        color: #ff5136;
+    }
+}

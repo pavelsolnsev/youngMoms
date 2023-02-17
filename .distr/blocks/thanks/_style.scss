@@ -1,0 +1,35 @@
+.thanks {
+    padding: 90px 0;
+    &__inner {
+        display: flex;
+        align-items: center;
+    }
+
+    &__text {
+        width: 100%;
+        max-width: 760px;
+        padding-right: 2%;
+    }
+
+    &__title {
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 80px;
+        text-transform: uppercase;
+
+        span {
+            color: #008fd1;
+        }
+    }
+
+    &__subtitle {
+        font-weight: 450;
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    &__picture {
+        display: flex;
+        align-items: flex-end;
+    }
+}

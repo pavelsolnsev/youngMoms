@@ -1,0 +1,49 @@
+@media (max-width: 1279px) {
+    .container {
+        max-width: none;
+        margin: 0 auto;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .common__title {
+        font-size: 52px;
+    }
+
+    .button {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .fixed__button {
+        display: flex;
+        position: fixed;
+        bottom: 10px;
+        left: 10px;
+        width: calc(100% - 20px);
+        padding: 15px 15px;
+        z-index: 1000;
+    }
+}
+
+@media (max-width: 575px) {
+    .common__title {
+        font-size: 32px;
+    }
+
+
+
+}

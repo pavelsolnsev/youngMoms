@@ -1,0 +1,45 @@
+.about {
+    position: relative;
+    padding: 130px 0;
+    z-index: 1;
+    background: #F0F3F5;
+
+    &__inner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    &__content {
+        padding-right: 2%;
+        ul {
+            li {
+                font-size: 24px;
+                line-height: 26px;
+                margin-bottom: 20px;
+                span {
+                    font-weight: 450;
+                    display: block;
+                    margin-bottom: 10px;
+                }
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+
+                &:after {
+                    content: '';
+                    display: block;
+                    margin-top: 10px;
+                    width: 35px;
+                    height: 4px;
+                    background: #1CB7FF;
+                }
+            }
+        }
+
+    }
+
+    &__picture {
+        text-align: center;
+    }
+}

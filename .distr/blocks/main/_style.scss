@@ -1,0 +1,39 @@
+.main {
+    padding-top: 100px;
+    &__inner {
+        display: flex;
+        padding: 60px 0;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 90px;
+        line-height: 90%;
+        letter-spacing: -0.02em;
+        margin-bottom: 22px;
+        white-space: nowrap;
+    }
+
+    &__subtitle {
+        font-weight: 450;
+        font-size: 40px;
+        line-height: 112%;
+        color: #1CB7FF;
+        white-space: nowrap;
+    }
+
+    &__picture {
+        display: flex;
+        align-items: flex-end;
+        width: 703px;
+        padding-left: 6%;
+    }
+
+    &__form {
+        margin-top: -30px;
+        padding: 40px 0;
+        background: #FF5136;
+    }
+}

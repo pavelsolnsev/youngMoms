@@ -1,0 +1,28 @@
+.diplom-1 {
+    padding: 174px 0;
+    background: #F0F3F5;
+    &__item {
+        display: flex;
+        align-items: center;
+        img {
+            margin-right: 18px;
+        }
+        p {
+            font-size: 28px;
+            line-height: 130%;
+            color: #000000;
+            margin-bottom: 25px;
+        }
+
+        a {
+            font-size: 12px;
+            line-height: 13px;
+            max-width: 175px;
+            height: 35px;
+            font-weight: 600;
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+}
